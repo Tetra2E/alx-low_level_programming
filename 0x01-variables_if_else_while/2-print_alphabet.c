@@ -8,11 +8,11 @@
 
 int main(void)
 {
-char letter;
-for (letter = a; letter <= z; letter++)
+char letter1 = a, letter2 = z;
+for (char letter = letter1; letter <= letter2; letter++)
 {
 putchar(letter);
 }
-putchar(n);
+putchar("\n");
 return (0);
 }
