@@ -5,14 +5,15 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
-char letter;
-
-for (letter = a; letter <= z; letter++)
-putchar(letter);
-
+char letters[26] = "abcdefghijklmnopqrstuvwxyz";
+int i;
+for (i = 0; i <= 26; i++)
+{
+putchar(i);
+}
 putchar(n);
-
 return (0);
 }
