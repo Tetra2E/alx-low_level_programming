@@ -10,7 +10,7 @@ int main(void)
 {
 char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 int num;
-for (num = 25; num <= 0; num--)
+for (num = 25; num >= 0; num--)
 {
 putchar(alphabet[num]);
 }
