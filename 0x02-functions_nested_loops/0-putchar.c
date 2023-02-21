@@ -1,21 +1,16 @@
-#include "main.h"
+#ifndef Main_h
+#define Main_h
+
+/*
+ * File: main.h
+ * Desc: Header file containing declarations for all functions
+ *       used in the 0x02-functions_nested_loops directory.
+ */
 
 /**
- * main - Prints "_putchar" followed by a new line.
- *
- * Return: Always 0.
+ * _putchar - Writes the character c to std
+ * @c: Parameter to compare
  */
-int main(void)
-{
-_putchar('-');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
+int _putchar(char c);
 
-return (0);
-}
+#endif
