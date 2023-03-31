@@ -1,6 +1,6 @@
 /*
  * File: 0-print_list.c
- * Auth: Ejike Treasure
+ * Auth: Treasure Ejike
  */
 
 #include "lists.h"
@@ -19,13 +19,14 @@ size_t print_list(const list_t *h)
 
 	while (h)
 	{
-		if (!h->str)
+		if (h->str == NULL)
 			printf("[0] (nil)\n");
 
 		else
-			printf("[%u] %s\n", h->len, h->str);
-		h = h->next;
+			printf("[%d] %s\n", h->len, h->str);
+
 		nodes++;
+		h = h->next;
 	}
 
 	return (nodes);
