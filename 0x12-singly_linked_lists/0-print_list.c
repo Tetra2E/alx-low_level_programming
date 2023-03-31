@@ -1,3 +1,8 @@
+/*
+ * File: 0-print_list.c
+ * Auth: Ejike Treasure
+ */
+
 #include "lists.h"
 #include <stdio.h>
 
